@@ -7,7 +7,7 @@ class Comment extends Component{
         <div className='comment-user'>
           <span>{this.props.comment.username}</span> :
         </div>
-        <span>{this.props.comment.content}</span>
+        <p>{this.props.comment.content}</p>
       </div>
     )
   }

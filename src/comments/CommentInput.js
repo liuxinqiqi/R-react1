@@ -5,7 +5,7 @@ class CommentInput extends Component{
     super()
     this.state = {
       username: '',
-      content: ''
+      comment: ''
     }
   }
   handleUsernameChange(event){
