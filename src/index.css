@@ -40,6 +40,7 @@ body {
 
 .comment-field-input input,
 .comment-field-input textarea {
+  display: flex;
   border: 1px solid #e6e6e6;
   border-radius: 3px;
   padding: 5px;
@@ -51,6 +52,7 @@ body {
 
 .comment-field-input textarea {
   height: 100px;
+  width: 97%;
 }
 
 .comment-field-button {
