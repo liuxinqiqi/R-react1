@@ -19,8 +19,9 @@ class CommentInput1 extends Component{
     })
   }
   handleSubmit(){
-    console.log('---')
+    // console.log('---')
     if(this.props.onSubmit){
+      console.log(this.props.onSubmit)   // handleSubmitComment(comment)
       const {username, content} = this.state
       this.props.onSubmit({username, content})
     }
