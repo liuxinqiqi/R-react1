@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
+import './style/comment1.css'
 import logo from './logo.svg';
 import './App.css';
 
